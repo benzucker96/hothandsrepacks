@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Hot Hands Repacks | Quality repacks at an affordable price</title>
+<meta name="description" content="Hot Hands Repacks is the manufacturer of every Hot Hands repack product: Ashtag, Spark, Ashtag Elite, Ember, Torch and Molten Mint.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a1a1d'/%3E%3Ctext x='32' y='44' font-family='Arial,Helvetica,sans-serif' font-size='30' font-weight='900' text-anchor='middle' fill='%23d0021b'%3EHH%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+  .wrap { max-width: 72rem; margin: 0 auto; padding: 0 1.25rem; }
+  .eyebrow { color: var(--hh-red); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8rem; margin: 0 0 1rem; }
+  .section { scroll-margin-top: 4rem; padding: clamp(3.5rem, 8vw, 6rem) 0; border-top: 1px solid var(--hh-line); }
+  .section__head { max-width: 46rem; margin-bottom: clamp(2rem, 4vw, 3rem); }
+  .section h2 { font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.02; margin: 0 0 1rem; text-transform: uppercase; letter-spacing: -0.01em; }
+  .lead { color: var(--hh-muted); font-size: 1.1rem; line-height: 1.65; margin: 0; }
+  .prose p { color: var(--hh-muted); font-size: 1.05rem; line-height: 1.7; margin: 0 0 1.1rem; }
+  .prose p:last-child { margin-bottom: 0; }
+  .prose strong { color: var(--hh-ink); }
+
+  /* Hero */
+  .hero { padding: clamp(4rem, 10vw, 7.5rem) 0 clamp(3.5rem, 8vw, 6rem); position: relative; overflow: hidden; }
+  .hero::before {
+    content: ""; position: absolute; inset: auto -20% -60% auto; width: 60rem; height: 60rem; pointer-events: none;
+    background: radial-gradient(closest-side, rgba(208, 2, 27, 0.22), rgba(208, 2, 27, 0));
+  }
+  .hero .wrap { position: relative; }
+  .hero h1 { font-size: clamp(2.75rem, 8vw, 5.75rem); line-height: 0.92; margin: 0 0 1.5rem; text-transform: uppercase; letter-spacing: -0.025em; max-width: 14ch; }
+  .hero h1 em { font-style: normal; color: var(--hh-red); }
+  .hero .lead { max-width: 40rem; font-size: clamp(1.1rem, 2vw, 1.25rem); }
+  .hero__ctas { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2.25rem; }
+  .hero__stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0; margin: clamp(3rem, 6vw, 4.5rem) 0 0; padding: 0; border-top: 4px solid var(--hh-red); }
+  .hero__stats div { padding: 1.1rem 1rem 0 0; }
+  .hero__stats dt { color: var(--hh-muted); font-size: 0.9rem; margin: 0.25rem 0 0; }
+  .hero__stats dd { margin: 0; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; order: -1; }
+  .hero__stats div { display: flex; flex-direction: column; }
+
+  /* Two-column story */
+  .split { display: grid; gap: clamp(2rem, 5vw, 4rem); grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 52rem) { .split { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: start; } }
+  .split .section__head { margin-bottom: 0; }
+  .pull { margin: 2rem 0 0; padding: 1rem 1.25rem; background: var(--hh-panel); border-left: 4px solid var(--hh-red); font-size: 1.15rem; line-height: 1.5; font-weight: 600; }
+
+  /* Pillars */
+  .pillars { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); list-style: none; margin: 0; padding: 0; }
+  .pillar { border: 1.5px solid var(--hh-line); padding: 1.5rem 1.35rem; }
+  .pillar__num { display: block; color: var(--hh-red); font-weight: 900; font-size: 0.9rem; letter-spacing: 0.08em; margin-bottom: 0.9rem; }
+  .pillar h3 { font-size: 1.25rem; margin: 0 0 0.6rem; }
+  .pillar p { color: var(--hh-muted); line-height: 1.6; margin: 0; }
+
+  /* Process */
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; counter-reset: step; }
+  .step { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); gap: 1rem; padding: 1.5rem 0; border-bottom: 1px solid var(--hh-line); counter-increment: step; }
+  .step:first-child { border-top: 1px solid var(--hh-line); }
+  .step::before { content: counter(step, decimal-leading-zero); font-weight: 900; font-size: 1.6rem; color: var(--hh-red); line-height: 1.1; }
+  .step h3 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+  .step p { margin: 0; color: var(--hh-muted); line-height: 1.6; max-width: 46rem; }
+  .step a { color: var(--hh-ink); }
+
+  /* Products */
+  .products { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); }
+  .product { display: flex; flex-direction: column; border: 1.5px solid var(--hh-line); background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0)); }
+  .product__top { padding: 1.4rem 1.35rem 1.1rem; border-bottom: 4px solid var(--hh-red); }
+  .product__tier { color: var(--hh-muted); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 0.5rem; }
+  .product h3 { font-size: clamp(1.9rem, 3.5vw, 2.4rem); line-height: 0.95; margin: 0; text-transform: uppercase; letter-spacing: -0.02em; }
+  .product__price { margin: 0.75rem 0 0; line-height: 1.3; }
+  .product__price strong { font-size: 1.35rem; }
+  .product__price span { display: block; color: var(--hh-muted); font-size: 0.9rem; }
+  .product__body { padding: 1.2rem 1.35rem 1.4rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
+  .product__pitch { margin: 0; color: var(--hh-muted); line-height: 1.6; }
+  .guarantee { margin: 0; padding: 0.75rem 0.9rem; background: var(--hh-panel); border-left: 3px solid var(--hh-red); font-size: 0.95rem; line-height: 1.45; }
+  .guarantee b { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--hh-red); margin-bottom: 0.2rem; }
+  .range { display: grid; grid-template-columns: 1fr 1fr; margin: 0; border-top: 1px solid var(--hh-line); border-bottom: 1px solid var(--hh-line); }
+  .range div { padding: 0.7rem 0; }
+  .range div + div { padding-left: 1rem; border-left: 1px solid var(--hh-line); }
+  .range dt { color: var(--hh-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .range dd { margin: 0.15rem 0 0; font-weight: 800; font-size: 1.15rem; }
+  .product__badge { display: inline-block; margin-top: 0.75rem; padding: 0.2rem 0.6rem; border: 1px solid var(--hh-line); border-radius: 999px; font-size: 0.78rem; color: var(--hh-muted); font-weight: 600; }
+  .product__link { margin-top: auto; color: var(--hh-ink); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem; }
+  .product__link:hover { color: var(--hh-red); }
+  .product__link::after { content: "\2192"; transition: transform 0.15s; }
+  .product__link:hover::after { transform: translateX(3px); }
+  .note { color: var(--hh-muted); font-size: 0.9rem; line-height: 1.55; margin: 1.5rem 0 0; max-width: 46rem; }
+
+  /* CTA band */
+  .cta { background: var(--hh-red); color: #fff; padding: clamp(3rem, 7vw, 5rem) 0; }
+  .cta .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem 3rem; }
+  .cta h2 { font-size: clamp(1.9rem, 4.5vw, 3rem); line-height: 1; margin: 0 0 0.75rem; text-transform: uppercase; letter-spacing: -0.01em; }
+  .cta p { margin: 0; max-width: 38rem; font-size: 1.1rem; line-height: 1.55; color: rgba(255,255,255,0.9); }
+  .cta .btn { background: #fff; color: var(--hh-red); border-color: #fff; }
+  .cta .btn:hover { background: var(--hh-bg); color: #fff; border-color: var(--hh-bg); }
+  .cta a:focus-visible { outline-color: #fff; }
+
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+</style>
+</head>
+<body>
+<a class="site-skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-wordmark" href="/" aria-label="Hot Hands Repacks home">Hot Hands <span>Repacks</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/#products">Products</a></li>
+        <li><a href="/series-checklists/">Series Checklists</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">The manufacturer of every Hot Hands repack</p>
+      <h1>Real cards. <em>Real value.</em> Every pack.</h1>
+      <p class="lead">Hot Hands Repacks builds, seals and stands behind every Hot Hands repack product. We make quality repacks at a price collectors can afford, using cards we actually want to pull ourselves.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="#products">See the products</a>
+        <a class="btn btn--ghost" href="/series-checklists/">View Series Checklists</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>Repack products</dt><dd>6</dd></div>
+        <div><dt>Packs start at</dt><dd>$39</dd></div>
+        <div><dt>Of products carry a guarantee</dt><dd>100%</dd></div>
+        <div><dt>Card list for every finalized Series</dt><dd>Public</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section" id="mission" aria-labelledby="mission-title">
+    <div class="wrap split">
+      <div class="section__head">
+        <p class="eyebrow">Our mission</p>
+        <h2 id="mission-title">Quality repacks at an affordable price</h2>
+      </div>
+      <div class="prose">
+        <p>Repacks got a bad reputation for a reason. Too many are stuffed with base cards and filler, built around one headline hit you'll never see, and priced like a lottery ticket. We started Hot Hands Repacks to do it the right way.</p>
+        <p>Our mission is simple: <strong>put real cards in front of real collectors at a price that makes sense.</strong> That means every product is built to a clear standard, every pack has a guarantee you can read before you buy, and the upside is real, not a marketing line.</p>
+        <p>Whether you're ripping your first $39 Ashtag or chasing a PSA 10 in Molten Mint, you should open a Hot Hands pack knowing it was built with care and priced to be worth it.</p>
+        <p class="pull">We don't make repacks for the box. We make them for the person opening them.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="buyers" aria-labelledby="buyers-title">
+    <div class="wrap split">
+      <div class="section__head">
+        <p class="eyebrow">Our buyers</p>
+        <h2 id="buyers-title">The best team of buyers in the hobby</h2>
+      </div>
+      <div class="prose">
+        <p>Every great repack starts long before a pack is sealed. It starts with the buy. Our buying team works the hobby every day: card shows, private collections, auctions, breakers and longtime dealer relationships, all to find incredible cards at great prices.</p>
+        <p>They know the market cold. They know which rookies are heating up, which slabs are underpriced and which legends never go out of style. Because they buy smart, we can do what most repack makers won't: <strong>pass that value straight down to the collector</strong> instead of keeping it for ourselves.</p>
+        <p>That's the whole model. Better buying means better cards in every pack, at prices that leave room for real hits. From vintage Hall of Famers to this year's hottest rookie autos, the cards in a Hot Hands repack were picked by people who love this hobby as much as you do.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="why" aria-labelledby="why-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">What sets us apart</p>
+        <h2 id="why-title">The best repacks in the entire hobby</h2>
+        <p class="lead">Lots of companies sell repacks. Here's why collectors keep coming back to ours.</p>
+      </div>
+      <ul class="pillars">
+        <li class="pillar"><span class="pillar__num">01</span><h3>Unique products</h3><p>Six products, each built for a different collector and budget. From guaranteed-auto packs to graded-only cases, no two products are the same, and none of them are generic.</p></li>
+        <li class="pillar"><span class="pillar__num">02</span><h3>A guarantee on every product</h3><p>A guaranteed autograph, a guaranteed case hit, a guaranteed value floor or a guaranteed 9-or-better slab. Every product tells you up front what you're getting.</p></li>
+        <li class="pillar"><span class="pillar__num">03</span><h3>Incredible value</h3><p>Our buyers source cards below market so you don't pay a markup on a markup. More of what you spend ends up in the pack, where it belongs.</p></li>
+        <li class="pillar"><span class="pillar__num">04</span><h3>Full transparency</h3><p>Every case-based product is sealed in a numbered Series. Once a Series is finalized, its full card list is published and never changes. Check it yourself any time.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="trust" aria-labelledby="trust-title">
+    <div class="wrap split">
+      <div class="section__head">
+        <p class="eyebrow">Built on trust</p>
+        <h2 id="trust-title">How a Hot Hands repack is made</h2>
+        <p class="lead">Trust isn't something we ask for. We earn it with a process you can see.</p>
+      </div>
+      <ol class="steps">
+        <li class="step"><div><h3>Sourced by our buyers</h3><p>Every card is hand-picked by our buying team for quality, condition and value. No bulk filler, no mystery lots.</p></div></li>
+        <li class="step"><div><h3>Built to its guarantee</h3><p>Each product has a clear standard: an auto in every Ashtag, a value floor in every Spark, a case hit in every Ember and Torch, a 9–10 slab in every Molten Mint. Every pack we build meets it.</p></div></li>
+        <li class="step"><div><h3>Professionally sealed</h3><p>Packs and cases are sealed by Hot Hands Repacks. What's sealed at our facility is exactly what reaches the person opening it.</p></div></li>
+        <li class="step"><div><h3>Finalized and published</h3><p>Case products are grouped into numbered Series. Once a Series is finalized, its pack count and full card list are locked and posted on our <a href="/series-checklists/">Series Checklists</a>. New cards always go into a new Series.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="products" aria-labelledby="products-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">The lineup</p>
+        <h2 id="products-title">Our repack products</h2>
+        <p class="lead">From a low-cost first rip to the most premium slabs we make, here's every Hot Hands repack, listed from entry level to top tier.</p>
+      </div>
+      <div class="products">
+
+        <article class="product" id="ashtag">
+          <div class="product__top">
+            <p class="product__tier">Entry level</p>
+            <h3>Ashtag</h3>
+            <p class="product__price"><strong>$39</strong> per pack<span>Sold by the pack</span></p>
+          </div>
+          <div class="product__body">
+            <p class="product__pitch">Our hero product. The Ashtag is the most affordable way to get into the game with real upside: an autograph in every single pack.</p>
+            <p class="guarantee"><b>Guarantee</b>1 autographed card in every pack</p>
+            <dl class="range"><div><dt>Floor</dt><dd>$5</dd></div><div><dt>Ceiling</dt><dd>$1,000</dd></div></dl>
+            <a class="product__link" href="/series-checklists/#hh-ashtag">See sample pulls</a>
+          </div>
+        </article>
+
+        <article class="product" id="spark">
+          <div class="product__top">
+            <p class="product__tier">Step up</p>
+            <h3>Spark</h3>
+            <p class="product__price"><strong>$129</strong> per pack<span>Sold by the pack</span></p>
+          </div>
+          <div class="product__body">
+            <p class="product__pitch">A lower barrier to entry without giving up on big hits. Spark mixes graded rookies, numbered parallels and autos, with a guaranteed value in every pack.</p>
+            <p class="guarantee"><b>Guarantee</b>Value guarantee in every pack</p>
+            <dl class="range"><div><dt>Floor</dt><dd>$20</dd></div><div><dt>Ceiling</dt><dd>$2,000</dd></div></dl>
+            <a class="product__link" href="/series-checklists/#hh-spark">See sample pulls</a>
+          </div>
+        </article>
+
+        <article class="product" id="ashtag-elite">
+          <div class="product__top">
+            <p class="product__tier">Premium autos</p>
+            <h3>Ashtag Elite</h3>
+            <p class="product__price"><strong>$239</strong> per pack<span>Sold by the pack</span></p>
+          </div>
+          <div class="product__body">
+            <p class="product__pitch">Everything you love about the Ashtag, taken to the next level. One guaranteed auto per pack, but these are high-end autos: low-numbered, on-card and from the biggest names.</p>
+            <p class="guarantee"><b>Guarantee</b>1 premium autographed card in every pack</p>
+            <dl class="range"><div><dt>Floor</dt><dd>$50</dd></div><div><dt>Ceiling</dt><dd>$5,000</dd></div></dl>
+            <a class="product__link" href="/series-checklists/#hh-ashtag-elite">See sample pulls</a>
+          </div>
+        </article>
+
+        <article class="product" id="ember">
+          <div class="product__top">
+            <p class="product__tier">Case product</p>
+            <h3>Ember</h3>
+            <p class="product__price"><strong>$239</strong> per pack<span>MSRP $2,868 per case of 12 packs</span></p>
+            <span class="product__badge">Single-show series</span>
+          </div>
+          <div class="product__body">
+            <p class="product__pitch">The next step up from Spark: a stronger, hotter offering with a clear jump in card quality and value. Every Ember case is built from a fixed, published Series.</p>
+            <p class="guarantee"><b>Guarantee</b>1 case hit in every case</p>
+            <dl class="range"><div><dt>Floor</dt><dd>$50</dd></div><div><dt>Ceiling</dt><dd>$500</dd></div></dl>
+            <a class="product__link" href="/series-checklists/#hh-ember">View Ember Series</a>
+          </div>
+        </article>
+
+        <article class="product" id="torch">
+          <div class="product__top">
+            <p class="product__tier">Serious collectors</p>
+            <h3>Torch</h3>
+            <p class="product__price"><strong>$650</strong> per pack<span>MSRP $6,500 per case of 10 packs</span></p>
+            <span class="product__badge">Single-show series</span>
+          </div>
+          <div class="product__body">
+            <p class="product__pitch">For the serious collector ready to raise the stakes. Every rip carries premium upside and headline hits: the kind of pull worth holding onto.</p>
+            <p class="guarantee"><b>Guarantee</b>1 case hit in every case</p>
+            <dl class="range"><div><dt>Floor</dt><dd>$150</dd></div><div><dt>Ceiling</dt><dd>$700–$1,000</dd></div></dl>
+            <a class="product__link" href="/series-checklists/#hh-torch">View Torch Series</a>
+          </div>
+        </article>
+
+        <article class="product" id="molten-mint">
+          <div class="product__top">
+            <p class="product__tier">Our most premium</p>
+            <h3>Molten Mint</h3>
+            <p class="product__price"><strong>$999</strong> per pack<span>MSRP $9,990 per case of 10 packs</span></p>
+            <span class="product__badge">Single-show series</span>
+          </div>
+          <div class="product__body">
+            <p class="product__pitch">Our most premium repack, built for collectors chasing high-end slabs. Graded cards only, and only the top of the scale.</p>
+            <p class="guarantee"><b>Guarantee</b>1 graded card per pack from PSA, SGC or Beckett, graded 9, 9.5 or 10</p>
+            <dl class="range"><div><dt>Floor</dt><dd>$250</dd></div><div><dt>Ceiling</dt><dd>$2,000–$2,500</dd></div></dl>
+            <a class="product__link" href="/series-checklists/#hh-molten-mint">View Molten Mint Series</a>
+          </div>
+        </article>
+
+      </div>
+      <p class="note">Floor and ceiling show the value range you can expect from a single pack. Single-show series are sealed for one live show and opened only during that show. Every case is marked “Single-show series” on the front.</p>
+    </div>
+  </section>
+
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="wrap">
+      <div>
+        <h2 id="cta-title">See exactly what's inside</h2>
+        <p>Every finalized Series is listed card by card, alongside sample pulls from our pack products. No guessing, no hidden lists.</p>
+      </div>
+      <a class="btn" href="/series-checklists/">Browse Series Checklists</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-wordmark" href="/">Hot Hands <span>Repacks</span></a>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="/#products">Products</a></li>
+        <li><a href="/series-checklists/">Series Checklists</a></li>
+      </ul>
+    </nav>
+    <p>&copy; <span id="yr">2026</span> Hot Hands Repacks. All rights reserved.</p>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

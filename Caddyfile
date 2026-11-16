@@ -1,0 +1,31 @@
+{
+	admin off
+	auto_https off
+}
+
+:{$PORT:8080} {
+	root * /srv
+	encode zstd gzip
+
+	# Keep the whole site out of search engines.
+	header {
+		X-Robots-Tag "noindex, nofollow, noarchive"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		-Server
+	}
+
+	# Old-style URL support: /series-checklists.html -> /series-checklists/
+	redir /series-checklists.html /series-checklists/ permanent
+	redir /series-checklists /series-checklists/ permanent
+
+	@assets path /assets/*
+	header @assets Cache-Control "public, max-age=3600"
+
+	file_server
+
+	handle_errors {
+		rewrite * /404.html
+		file_server
+	}
+}
