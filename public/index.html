@@ -71,11 +71,6 @@
   .product__pitch { margin: 0; color: var(--hh-muted); line-height: 1.6; }
   .guarantee { margin: 0; padding: 0.75rem 0.9rem; background: var(--hh-panel); border-left: 3px solid var(--hh-red); font-size: 0.95rem; line-height: 1.45; }
   .guarantee b { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--hh-red); margin-bottom: 0.2rem; }
-  .range { display: grid; grid-template-columns: 1fr 1fr; margin: 0; border-top: 1px solid var(--hh-line); border-bottom: 1px solid var(--hh-line); }
-  .range div { padding: 0.7rem 0; }
-  .range div + div { padding-left: 1rem; border-left: 1px solid var(--hh-line); }
-  .range dt { color: var(--hh-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
-  .range dd { margin: 0.15rem 0 0; font-weight: 800; font-size: 1.15rem; }
   .product__badge { display: inline-block; margin-top: 0.75rem; padding: 0.2rem 0.6rem; border: 1px solid var(--hh-line); border-radius: 999px; font-size: 0.78rem; color: var(--hh-muted); font-weight: 600; }
   .product__link { margin-top: auto; color: var(--hh-ink); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem; }
   .product__link:hover { color: var(--hh-red); }
@@ -122,7 +117,7 @@
       </div>
       <dl class="hero__stats">
         <div><dt>Repack products</dt><dd>6</dd></div>
-        <div><dt>Packs start at</dt><dd>$39</dd></div>
+        <div><dt>MSRP per pack, from</dt><dd>$39</dd></div>
         <div><dt>Of products carry a guarantee</dt><dd>100%</dd></div>
         <div><dt>Card list for every finalized Series</dt><dd>Public</dd></div>
       </dl>
@@ -138,7 +133,7 @@
       <div class="prose">
         <p>Repacks got a bad reputation for a reason. Too many are stuffed with base cards and filler, built around one headline hit you'll never see, and priced like a lottery ticket. We started Hot Hands Repacks to do it the right way.</p>
         <p>Our mission is simple: <strong>put real cards in front of real collectors at a price that makes sense.</strong> That means every product is built to a clear standard, every pack has a guarantee you can read before you buy, and the upside is real, not a marketing line.</p>
-        <p>Whether you're ripping your first $39 Ashtag or chasing a PSA 10 in Molten Mint, you should open a Hot Hands pack knowing it was built with care and priced to be worth it.</p>
+        <p>Whether you're ripping your first Ashtag or chasing a PSA 10 in Molten Mint, you should open a Hot Hands pack knowing it was built with care and priced to be worth it.</p>
         <p class="pull">We don't make repacks for the box. We make them for the person opening them.</p>
       </div>
     </div>
@@ -167,7 +162,7 @@
       </div>
       <ul class="pillars">
         <li class="pillar"><span class="pillar__num">01</span><h3>Unique products</h3><p>Six products, each built for a different collector and budget. From guaranteed-auto packs to graded-only cases, no two products are the same, and none of them are generic.</p></li>
-        <li class="pillar"><span class="pillar__num">02</span><h3>A guarantee on every product</h3><p>A guaranteed autograph, a guaranteed case hit, a guaranteed value floor or a guaranteed 9-or-better slab. Every product tells you up front what you're getting.</p></li>
+        <li class="pillar"><span class="pillar__num">02</span><h3>A guarantee on every product</h3><p>A guaranteed autograph, a guaranteed case hit, a value guarantee or a guaranteed 9-or-better slab. Every product tells you up front what you're getting.</p></li>
         <li class="pillar"><span class="pillar__num">03</span><h3>Incredible value</h3><p>Our buyers source cards below market so you don't pay a markup on a markup. More of what you spend ends up in the pack, where it belongs.</p></li>
         <li class="pillar"><span class="pillar__num">04</span><h3>Full transparency</h3><p>Every case-based product is sealed in a numbered Series. Once a Series is finalized, its full card list is published and never changes. Check it yourself any time.</p></li>
       </ul>
@@ -183,7 +178,7 @@
       </div>
       <ol class="steps">
         <li class="step"><div><h3>Sourced by our buyers</h3><p>Every card is hand-picked by our buying team for quality, condition and value. No bulk filler, no mystery lots.</p></div></li>
-        <li class="step"><div><h3>Built to its guarantee</h3><p>Each product has a clear standard: an auto in every Ashtag, a value floor in every Spark, a case hit in every Ember and Torch, a 9–10 slab in every Molten Mint. Every pack we build meets it.</p></div></li>
+        <li class="step"><div><h3>Built to its guarantee</h3><p>Each product has a clear standard: an auto in every Ashtag, a value guarantee in every Spark, a case hit in every Ember and Torch, a 9–10 slab in every Molten Mint. Every pack we build meets it.</p></div></li>
         <li class="step"><div><h3>Professionally sealed</h3><p>Packs and cases are sealed by Hot Hands Repacks. What's sealed at our facility is exactly what reaches the person opening it.</p></div></li>
         <li class="step"><div><h3>Finalized and published</h3><p>Case products are grouped into numbered Series. Once a Series is finalized, its pack count and full card list are locked and posted on our <a href="/series-checklists/">Series Checklists</a>. New cards always go into a new Series.</p></div></li>
       </ol>
@@ -203,12 +198,11 @@
           <div class="product__top">
             <p class="product__tier">Entry level</p>
             <h3>Ashtag</h3>
-            <p class="product__price"><strong>$39</strong> per pack<span>Sold by the pack</span></p>
+            <p class="product__price"><strong>MSRP $39 per pack</strong><span>Sold by the pack</span></p>
           </div>
           <div class="product__body">
             <p class="product__pitch">Our hero product. The Ashtag is the most affordable way to get into the game with real upside: an autograph in every single pack.</p>
             <p class="guarantee"><b>Guarantee</b>1 autographed card in every pack</p>
-            <dl class="range"><div><dt>Floor</dt><dd>$5</dd></div><div><dt>Ceiling</dt><dd>$1,000</dd></div></dl>
             <a class="product__link" href="/series-checklists/#hh-ashtag">See sample pulls</a>
           </div>
         </article>
@@ -217,12 +211,11 @@
           <div class="product__top">
             <p class="product__tier">Step up</p>
             <h3>Spark</h3>
-            <p class="product__price"><strong>$129</strong> per pack<span>Sold by the pack</span></p>
+            <p class="product__price"><strong>MSRP $129 per pack</strong><span>Sold by the pack</span></p>
           </div>
           <div class="product__body">
             <p class="product__pitch">A lower barrier to entry without giving up on big hits. Spark mixes graded rookies, numbered parallels and autos, with a guaranteed value in every pack.</p>
             <p class="guarantee"><b>Guarantee</b>Value guarantee in every pack</p>
-            <dl class="range"><div><dt>Floor</dt><dd>$20</dd></div><div><dt>Ceiling</dt><dd>$2,000</dd></div></dl>
             <a class="product__link" href="/series-checklists/#hh-spark">See sample pulls</a>
           </div>
         </article>
@@ -231,12 +224,11 @@
           <div class="product__top">
             <p class="product__tier">Premium autos</p>
             <h3>Ashtag Elite</h3>
-            <p class="product__price"><strong>$239</strong> per pack<span>Sold by the pack</span></p>
+            <p class="product__price"><strong>MSRP $239 per pack</strong><span>Sold by the pack</span></p>
           </div>
           <div class="product__body">
             <p class="product__pitch">Everything you love about the Ashtag, taken to the next level. One guaranteed auto per pack, but these are high-end autos: low-numbered, on-card and from the biggest names.</p>
             <p class="guarantee"><b>Guarantee</b>1 premium autographed card in every pack</p>
-            <dl class="range"><div><dt>Floor</dt><dd>$50</dd></div><div><dt>Ceiling</dt><dd>$5,000</dd></div></dl>
             <a class="product__link" href="/series-checklists/#hh-ashtag-elite">See sample pulls</a>
           </div>
         </article>
@@ -245,13 +237,12 @@
           <div class="product__top">
             <p class="product__tier">Case product</p>
             <h3>Ember</h3>
-            <p class="product__price"><strong>$239</strong> per pack<span>MSRP $2,868 per case of 12 packs</span></p>
+            <p class="product__price"><strong>MSRP $2,868 per case</strong><span>12 packs at $239 each</span></p>
             <span class="product__badge">Single-show series</span>
           </div>
           <div class="product__body">
             <p class="product__pitch">The next step up from Spark: a stronger, hotter offering with a clear jump in card quality and value. Every Ember case is built from a fixed, published Series.</p>
             <p class="guarantee"><b>Guarantee</b>1 case hit in every case</p>
-            <dl class="range"><div><dt>Floor</dt><dd>$50</dd></div><div><dt>Ceiling</dt><dd>$500</dd></div></dl>
             <a class="product__link" href="/series-checklists/#hh-ember">View Ember Series</a>
           </div>
         </article>
@@ -260,13 +251,12 @@
           <div class="product__top">
             <p class="product__tier">Serious collectors</p>
             <h3>Torch</h3>
-            <p class="product__price"><strong>$650</strong> per pack<span>MSRP $6,500 per case of 10 packs</span></p>
+            <p class="product__price"><strong>MSRP $6,500 per case</strong><span>10 packs at $650 each</span></p>
             <span class="product__badge">Single-show series</span>
           </div>
           <div class="product__body">
             <p class="product__pitch">For the serious collector ready to raise the stakes. Every rip carries premium upside and headline hits: the kind of pull worth holding onto.</p>
             <p class="guarantee"><b>Guarantee</b>1 case hit in every case</p>
-            <dl class="range"><div><dt>Floor</dt><dd>$150</dd></div><div><dt>Ceiling</dt><dd>$700–$1,000</dd></div></dl>
             <a class="product__link" href="/series-checklists/#hh-torch">View Torch Series</a>
           </div>
         </article>
@@ -275,19 +265,18 @@
           <div class="product__top">
             <p class="product__tier">Our most premium</p>
             <h3>Molten Mint</h3>
-            <p class="product__price"><strong>$999</strong> per pack<span>MSRP $9,990 per case of 10 packs</span></p>
+            <p class="product__price"><strong>MSRP $9,990 per case</strong><span>10 packs at $999 each</span></p>
             <span class="product__badge">Single-show series</span>
           </div>
           <div class="product__body">
             <p class="product__pitch">Our most premium repack, built for collectors chasing high-end slabs. Graded cards only, and only the top of the scale.</p>
             <p class="guarantee"><b>Guarantee</b>1 graded card per pack from PSA, SGC or Beckett, graded 9, 9.5 or 10</p>
-            <dl class="range"><div><dt>Floor</dt><dd>$250</dd></div><div><dt>Ceiling</dt><dd>$2,000–$2,500</dd></div></dl>
             <a class="product__link" href="/series-checklists/#hh-molten-mint">View Molten Mint Series</a>
           </div>
         </article>
 
       </div>
-      <p class="note">Floor and ceiling show the value range you can expect from a single pack. Single-show series are sealed for one live show and opened only during that show. Every case is marked “Single-show series” on the front.</p>
+      <p class="note">Single-show series are sealed for one live show and opened only during that show. Every case is marked “Single-show series” on the front.</p>
     </div>
   </section>
 
